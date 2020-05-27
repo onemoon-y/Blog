@@ -52,17 +52,14 @@
     <a
             class="visitor"
             href="/Blog/index.jsp">访客登录</a>
+
+    <span id="msg" class="message">${msg}</span>
   </form>
 </div>
 
 
 <div id="footer">
-  <a target="_blank"
-     href="https://github.com/Lemonreds">
-    <img src="/Blog/img/github.png"
-         width="22px"
-         height="22px" class="img-circle">GitHub</a>
-  by lemonreds.
+  <a target="_blank">By Juzi DaDa</a>
 </div>
 <!-- footer -->
 </body>
