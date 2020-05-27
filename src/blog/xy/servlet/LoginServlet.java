@@ -21,8 +21,14 @@ public class LoginServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		System.out.println("0");
-		LoginUtils.login(request);
+		//获取错误信息
+		String msg=LoginUtils.login(request);
+		if(msg!=null){
+			request.setAttribute("msg",msg);
+			//跳转登录页面
+			request.getRequestDispatcher("index.jsp").forward(request, response);
+			return;
+		}
 		// 初始化分类
 		ArticleService as = ArticleService.getInstance();
 		request.setAttribute("sort_count_map", as.getSortAndCount());

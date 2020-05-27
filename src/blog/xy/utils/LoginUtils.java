@@ -9,26 +9,34 @@ import javax.servlet.http.HttpSession;
 
 public class LoginUtils {
 
-	public static void login(HttpServletRequest request) {
+	public static String login(HttpServletRequest request) {
 
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
+		String msg;
 
-		if (StringUtils.isEmpty(username) || StringUtils.isEmpty(password))
-			return;
+		if (StringUtils.isEmpty(username) || StringUtils.isEmpty(password)){
+			msg="用户名或密码为空";
+			return msg;
+		}
 
 		UserDao dao = UserDaoImpl.getInstance();
-		System.out.println("1");
 
 		User user = dao.login(username, password);
-		System.out.println("2");
-		if (user == null)
-			return;
-
-		// 写入session
-		HttpSession session = request.getSession();
-		session.setAttribute("user", user);
-
+		if (user == null){
+			msg="账户不存在，请重新输入!";
+			return msg;
+		}
+		if(user.getUser_password().equals(password)){
+			// 写入session
+			HttpSession session = request.getSession();
+			session.setAttribute("user", user);
+			return null;
+		}
+		else {
+			msg = "密码错误，请重新输入!";
+			return msg;
+		}
 	}
 
 }
