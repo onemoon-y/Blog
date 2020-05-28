@@ -25,3 +25,10 @@ body {
 	display: inline-block;
 	margin-top: 20px;
 }
+
+.message{
+	position: absolute;
+	color: red;
+	margin-top: 50px;
+	margin-left: -100px;
+}

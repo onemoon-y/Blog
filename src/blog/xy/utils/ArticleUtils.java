@@ -9,7 +9,7 @@ import java.util.List;
  * 文章处理工具
  * 
  */
-public class ArticleUtils {
+public class  ArticleUtils {
 
 	/**
 	 * 处理下时间
@@ -28,7 +28,6 @@ public class ArticleUtils {
 
 	/**
 	 * 处理下时间
-	 * 
 	 * @param Article
 	 * @return
 	 */

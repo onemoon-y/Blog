@@ -10,7 +10,6 @@
 <link	href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 <!-- Custom styles for this template -->
 <link href="signin.css" rel="stylesheet">
-
 <link type="text/css" rel="stylesheet" href="./css/main.css" />
 </head>
 <body>
@@ -23,20 +22,20 @@
 		<div class="row c_center">
 			<div class="col-md-3" id="left_content">
 
-				<div id="title">
+			<!--	<div id="title">
 					<h2><a href="/Blog/login.html">MyBlog</a></h2>
 					<h5 class="text-muted">Winner Winner Chicken Dinner!</h5>
-				</div>
+				</div>   -->
 
 				<div class="c_center" id="person_info">
 					<img src="/Blog/img/header.jpg" height="130" width="130"
 						alt="丢失了我的头像?" class="img-circle">
-					<h4 class="text-muted">Lemonreds</h4>
-					<h5 class="text-muted">星星和浮云.</h5>
+					<h4 class="text-muted">Juzi DaDa</h4>
+					<h5 class="text-muted">橘子and桔子.</h5>
 				</div>
 
 				<div class="c_center">
-					<!-- 这里初始化侧边栏的4个标签 -->
+					<!-- 这里初始化侧边栏的3个标签 -->
 					<div class="inline ">
 						<a href="#">${article_number}<br/>日志</a>
 					</div>
@@ -134,7 +133,6 @@
 			<span class="glyphicon glyphicon glyphicon-user">&nbsp;&nbsp;管理更多&nbsp;&nbsp;</span>
 			</a>
 			</c:if>
-			<!--  -->
 			
 			</div>
 			<div class="col-md-2" id="center_content">		
@@ -169,11 +167,7 @@
 			</div><!-- container -->
 	<div id="footer">
 		<div>
-			<a href="https://github.com/Lemonreds"><img src="/Blog/img/github.png"width="20px" height="20px" class="img-circle">&nbsp;&nbsp;GitHub</a>
-			&nbsp;|
-			<a href="#">&nbsp;&nbsp;MyBlog</a>
-			<br/>
-			copyright © 2017
+			<a href="#">By Juzi DaDa</a>
 		</div>		
 		
 		<div class="r_div">

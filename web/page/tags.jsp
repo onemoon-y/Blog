@@ -28,17 +28,18 @@
 		<div class="row c_center">
 			<div class="col-md-3" id="left_content">
 
-				<div id="title">
+
+		<!--		<div id="title">
 					<h2>
 						<a href="/Blog/index.jsp">MyBlog</a>
 					</h2>
 					<h5 class="text-muted">Winner Winner Chicken Dinner!</h5>
-				</div>
+				</div>   -->
 
 				<div class="c_center" id="person_info">
 					<img src="/Blog/img/header.jpg" height="130" width="130"
 						alt="what?" class="img-circle">
-					<h5 class="text-muted">Chicken Dinner Again!</h5>
+					<h5 class="text-muted">橘子and桔子</h5>
 				</div>
 
 

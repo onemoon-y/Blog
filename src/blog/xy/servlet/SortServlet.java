@@ -18,7 +18,7 @@ public class SortServlet extends HttpServlet {
 
 		// 获取的是所有分类 还是一个分类的文章
 		String get = StringUtils.pareCode(request.getParameter("get"));
-		// 初始化分类和和文章
+		// 初始化分类和文章
 		ArticleService as = ArticleService.getInstance();
 		request.setAttribute("sort_article_map", as.getSortAndAirticle(get));
 		// 转发

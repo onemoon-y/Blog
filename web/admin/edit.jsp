@@ -26,7 +26,7 @@
 <body>
 	<div class="head_line"></div>
 	<div class="container" id="main">		
-				<div id="title"><h2><a href="/Blog/index.jsp">MyBlog</a></h2>					
+				<div id="title"><h2><a href="/Blog/main.jsp">MyBlog</a></h2>
 					</div>	
 							
 		   <form action="/Blog/UpdateServlet" method="post">
