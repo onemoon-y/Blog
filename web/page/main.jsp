@@ -129,9 +129,9 @@
 			<a href="/Blog/AddServlet">
 			<span class="glyphicon glyphicon-plus">&nbsp;&nbsp;写新文章&nbsp;&nbsp;</span>
 			</a>
-			<a href="/Blog/AdminServlet">
+		<!--	<a href="/Blog/AdminServlet">
 			<span class="glyphicon glyphicon glyphicon-user">&nbsp;&nbsp;管理更多&nbsp;&nbsp;</span>
-			</a>
+			</a>  -->
 			</c:if>
 			
 			</div>
@@ -153,8 +153,8 @@
 					<a href="/Blog/SortServlet?get=${article.sort}">${article.sort}</a>&nbsp;&nbsp;|
 					<span>阅读次数: ${article.visit}</span>
 					<br/><br/>					
-					<span>${article.content}</span>
-					<br/><br/><br/>	
+				<!--	<span>${article.content}</span>
+					<br/><br/><br/>	   -->
 					<a href="/Blog/ArticleServlet?id=${article.id}">阅读全文</a>
 					<br/>			
 					</div>

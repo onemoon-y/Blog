@@ -10,7 +10,6 @@
 
 <!-- Bootstrap core CSS -->
 <link	href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-
 <!-- Custom styles for this template -->
 <link href="signin.css" rel="stylesheet">
 <link type="text/css" rel="stylesheet" href="./css/add.css" />
@@ -32,9 +31,11 @@
 		   <form action="/Blog/UpdateServlet" method="post">
 		   		
 		   		<div class="info" >
+
 		   		<!-- id -->
 		   		<span class="help">id</span>
 		   		<input type="text" class="form-control" name="id"  value="${edit_article.id}" readonly="readonly">
+
 		   		<!-- title -->
 		   		<span class="help">标题</span>
 		   		<input type="text" class="form-control" name="title"  value="${edit_article.title}">

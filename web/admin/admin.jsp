@@ -1,16 +1,23 @@
+<!--
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
  <%@taglib uri="http://java.sun.com/jsp/jstl/core"  prefix="c" %>
-		
+
+-->
+
+<!--
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>管理 | MyBlog</title>
 
-
+-->
 <!-- Bootstrap core CSS -->
-<link	href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<!--
+<link	href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">  -->
 <!-- Custom styles for this template -->
+<!--
 <link href="signin.css" rel="stylesheet">
 
 <link type="text/css" rel="stylesheet" href="./css/public.css" />
@@ -89,12 +96,14 @@
 
 
 		<div class="foot_line"></div>		
-		</div><!-- container -->		
+		</div>
+  -->
+<!-- container -->
 		
 		
 		
 		
-		
+		<!--
 		
 	<div id="footer">		
 		<a href="#">&nbsp;&nbsp;MyBlog</a>	
@@ -102,3 +111,5 @@
 	
 </body>
 </html>
+
+-->

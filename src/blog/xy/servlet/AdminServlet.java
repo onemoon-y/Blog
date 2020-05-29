@@ -1,4 +1,4 @@
-package blog.xy.servlet;
+/*package blog.xy.servlet;
 
 import blog.xy.db.VisitorDB;
 import blog.xy.service.ArticleService;
@@ -39,3 +39,4 @@ public class AdminServlet extends HttpServlet {
 	}
 
 }
+*/

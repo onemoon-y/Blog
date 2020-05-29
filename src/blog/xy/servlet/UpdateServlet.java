@@ -1,3 +1,4 @@
+/*
 package blog.xy.servlet;
 
 import blog.xy.model.Article;
@@ -9,10 +10,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+*/
 
 /**
  * Servlet implementation class UpdateServlet
  */
+
+/*
 @WebServlet("/UpdateServlet")
 public class UpdateServlet extends HttpServlet {
 
@@ -34,3 +38,4 @@ public class UpdateServlet extends HttpServlet {
 	}
 
 }
+*/

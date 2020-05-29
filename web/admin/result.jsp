@@ -36,7 +36,7 @@
 	</div>	
 	<!-- container -->
 	<div id="footer">
-		<a href="/Blog/main.jsp">&nbsp;&nbsp;MyBlog</a>
+		<a href="/Blog/index.jsp">&nbsp;&nbsp;MyBlog</a>
 	</div>
 	<!-- footer -->
 </body>

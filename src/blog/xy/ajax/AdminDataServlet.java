@@ -1,3 +1,4 @@
+/*
 package blog.xy.ajax;
 
 import blog.xy.service.AdminService;
@@ -79,3 +80,6 @@ public class AdminDataServlet extends HttpServlet {
         doGet(request, response);
     }
 }
+
+
+ */
