@@ -19,7 +19,7 @@ import java.util.Date;
  * Servlet implementation class NewCommentServlet
  */
 @WebServlet("/NewCommentServlet")
-public class NewCommentServlet extends HttpServlet {
+public class  NewCommentServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {

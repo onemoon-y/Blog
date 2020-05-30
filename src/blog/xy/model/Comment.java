@@ -1,6 +1,6 @@
 package blog.xy.model;
 
-public class Comment {
+public class  Comment {
 
 	public final static int STAR = 0;
 	public final static int DISS = 1;

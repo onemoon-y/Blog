@@ -170,11 +170,6 @@ public class ArticleService {
 				ArticleUtils.cutTime(articleBySort);
 				map.put(sort, articleBySort);
 			}
-		} else {
-			// 获取单个分类
-			articleBySort = dao.getArticleByColumn("sort", sort_name);
-			ArticleUtils.cutTime(articleBySort);
-			map.put(sort_name, articleBySort);
 		}
 		return map;
 	}
