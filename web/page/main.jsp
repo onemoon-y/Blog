@@ -22,10 +22,6 @@
 		<div class="row c_center">
 			<div class="col-md-3" id="left_content">
 
-			<!--	<div id="title">
-					<h2><a href="/Blog/login.html">MyBlog</a></h2>
-					<h5 class="text-muted">Winner Winner Chicken Dinner!</h5>
-				</div>   -->
 
 				<div class="c_center" id="person_info">
 					<img src="/Blog/img/header.jpg" height="130" width="130"
@@ -76,16 +72,6 @@
 				<!-- list -->
 					<br/>
 					
-				<div class="sort">
-					<div class="list-group">
-						<span class="list-group-item active">分类</span>						
-						<!-- 这里初始化分类 -->
-						<c:forEach var="entity"  items="${sort_count_map}">
-						 <a href="/Blog/SortServlet?get=${entity.key}" class="list-group-item">${entity.key}&nbsp;&nbsp;&nbsp;&nbsp; (${entity.value})</a>						
-						</c:forEach>									
-						<!-- 初始化结束 -->						
-					</div>
-				</div><!-- sort -->
 
 				
 				<div class="visit">
@@ -98,40 +84,12 @@
 						<!-- 初始化结束 -->						
 					</div>
 				</div><!-- visit-->
-	
-
-				<div id="tag">
-					<div class="list-group">
-						<span class="list-group-item active">标签</span>					
-						<br/>
-						
-						<!-- 这里初始化标签 -->				
-						<c:forEach var="t"  varStatus="status" items="${tag_list}" >		
-						<c:choose>
-						<c:when test="${status.count%2==1}">
-							<span class="label label-info"><a href="/Blog/TagsServlet?get=${t.tag}">
-							&nbsp;${t.tag}&nbsp;</a></span>							
-						</c:when>
-						<c:otherwise>
-								<span class="label label-success"><a href="/Blog/TagsServlet?get=${t.tag}">
-								&nbsp;${t.tag}&nbsp;</a></span>						
-						</c:otherwise>
-						</c:choose>
-					
-						</c:forEach>						
-						<!-- 初始化标签完成 -->							
-					</div>
-				</div><!-- tag -->
-				
 				
 			<!-- admin here -->
 			<c:if test="${sessionScope.user!=null}">
 			<a href="/Blog/AddServlet">
 			<span class="glyphicon glyphicon-plus">&nbsp;&nbsp;写新文章&nbsp;&nbsp;</span>
 			</a>
-		<!--	<a href="/Blog/AdminServlet">
-			<span class="glyphicon glyphicon glyphicon-user">&nbsp;&nbsp;管理更多&nbsp;&nbsp;</span>
-			</a>  -->
 			</c:if>
 			
 			</div>

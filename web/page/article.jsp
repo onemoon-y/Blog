@@ -152,8 +152,8 @@
 			
 			<form action="/Blog/NewCommentServlet?id=${article.id}" method="post">
 			<input  style="width:30%" class="form-control" type="text" name="w_nickname" value="热心网友"  >
-			<br/>							
-			<textarea style="resize:none; width:100%; height:180px;" name="w_content"></textarea>
+			<br/>
+				<textarea style="resize:none; width:100%; height:180px;" name="w_content"></textarea>>
 			<br/>
 			<br/>			
 			<input  class="btn btn-default"  type="submit"   value="评论" onclick="onclick"/>	
